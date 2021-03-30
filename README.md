@@ -2,9 +2,11 @@
 
 ## Requirements
  * cmake >= 3.1
+
 ## Compile & Run
 Note use of **--recurse-submodules** is **required**!
-### Unix
+
+#### Unix
 ```
 git clone https://github.com/MlsDmitry/EpicGame.git --recurse-submodules -j8
 cd EpicGame
@@ -13,7 +15,7 @@ cmake ..
 make
 ./epic_game
 ```
-### Windows
+#### Windows
 ```
 git clone https://github.com/MlsDmitry/EpicGame.git --recurse-submodules -j8
 cd .\EpicGame
